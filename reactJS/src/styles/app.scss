@@ -1,0 +1,25 @@
+@import '~antd/dist/antd.css';
+@import './variables.scss';
+@import './overrides.scss';
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem !important;
+  color: map-get($colors, mainColor);
+  font-family: 'Ubuntu', sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+// a {
+//   &:link,
+//   &:hover,
+//   &:focus,
+//   &:active,
+//   &:visited {
+//     text-decoration: none;
+//   }
+// }

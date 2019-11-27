@@ -1,0 +1,11 @@
+<svg class="logo" xmlns="http://www.w3.org/2000/svg" width="140" height="26" viewBox="0 0 140 26">
+  <g fill="#0082d5" fill-rule="evenodd">
+    <text font-family="Ubuntu" fill='#fff' font-size="19" font-weight="700" transform="translate(33.221 2.027)">
+      <tspan x=".779" y="18.454">COGNITEQ</tspan>
+    </text>
+    <g fill-rule="nonzero">
+      <path d="M24.103 10.263l-5.23 5.132-5.726-5.542-2.756 2.668 5.725 5.542-5.301 5.132 2.756 2.668L26.86 12.932z"></path>
+      <path d="M19.933 11.563l2.686-2.668-5.938-5.748.071-.068-2.757-2.6L.636 13.342l.424.41 8.27 8.006 2.757-2.669-5.938-5.747 7.776-7.526z"></path>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,27 @@
+import {
+  GET_REQUIREMENTS_TYPES_FETCHING,
+  GET_REQUIREMENTS_TYPES_SUCCESS
+} from '../types'
+const initialState = {
+  list: [],
+  isFetching: false
+}
+
+export default (state = initialState, action) => {
+  switch (action.type) {
+    case GET_REQUIREMENTS_TYPES_FETCHING: {
+      return {
+        ...state,
+        isFetching: action.payload
+      }
+    }
+    case GET_REQUIREMENTS_TYPES_SUCCESS: {
+      return {
+        ...state,
+        list: action.payload
+      }
+    }
+    default:
+      return state
+  }
+}
